@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/GIT-CTS-HAT.iml" filepath="$PROJECT_DIR$/.idea/GIT-CTS-HAT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar-02-03/Seminar-02-03.iml" filepath="$PROJECT_DIR$/Seminar-02-03/Seminar-02-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar-04/Seminar-04.iml" filepath="$PROJECT_DIR$/Seminar-04/Seminar-04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar-05-nou/Seminar-05-nou.iml" filepath="$PROJECT_DIR$/Seminar-05-nou/Seminar-05-nou.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar-06/src/Seminar-06.iml" filepath="$PROJECT_DIR$/Seminar-06/src/Seminar-06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar-06/Seminar-7.iml" filepath="$PROJECT_DIR$/Seminar-06/Seminar-7.iml" />
+    </modules>
+  </component>
+</project>
