@@ -1,5 +1,6 @@
 package composite;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Departament  extends StructuraSpital{
@@ -8,15 +9,16 @@ public class Departament  extends StructuraSpital{
 
     public Departament(String nume) {
         super(nume);
+        this.structuriSpital = new ArrayList<>();
     }
 
     public  StructuraSpital getStructuraSpital(int index){
-       return this.getStructuraSpital(index);
+       return this.structuriSpital.get(index);
     }
 
 
     public void adaugaStructura(StructuraSpital structuraSpital){
-      this.structuriSpital.add(structuraSpital);
+        this.structuriSpital.add(structuraSpital);
     }
 
     public void stergeStructura(StructuraSpital structuraSpital){
@@ -27,7 +29,7 @@ public class Departament  extends StructuraSpital{
     public void afiseazaIerarhieSpital(String identare) {
         System.out.println(identare  + super.getNume());
         for(StructuraSpital structuraSpital :this. structuriSpital){
-           structuraSpital.afiseazaIerarhieSpital(" ");
+           structuraSpital.afiseazaIerarhieSpital(identare + "  ");
         }
     }
 }
