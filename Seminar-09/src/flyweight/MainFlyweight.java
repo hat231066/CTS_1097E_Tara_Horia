@@ -1,5 +1,14 @@
 package flyweight;
 
+//
+//A.10. Pentru fiecare internare trebuie să se rețină informații cu privire la pacientul internat precum:
+//nume, număr de telefon, adresă, etc, precum și informațiile despre salonul unde este internat:
+//        număr salon, număr pat, număr zile spitalizare, etc. Astfel, dacă un pacient este internat de mai
+//multe ori de-a lungul timpului, informațiile despre acesta sunt aceleași și se repetă, ocupând foarte
+//multă memorie. Să se implementeze modulul de memorare al tuturor internărilor astfel încât să nu
+//ocupe memorie foarte multă.
+
+
 public class MainFlyweight {
     public static void main(String[] args) {
         IPacientFlyweight pacientFlyweight1 = PacientFlyweightFactory.getPacient("Mihai", "0722222222", "Calea Dorobanti");

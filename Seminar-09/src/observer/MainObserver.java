@@ -1,5 +1,10 @@
 package observer;
 
+//A.12. Spitalul dorește să anunțe toți pacienții care au fost în spital ori de câte ori apare vreo urgență
+//cu privire la viruși existenți în oraș. Astfel se dorește implementarea unui modul care atunci când
+//apare o epidemie sau un virus nou să se trimită notificări tuturor persoanelor abonate la notificările
+//spitalului.
+
 public class MainObserver {
     public static void main(String[] args) {
         Spital spital = new Spital("Spital Epidemiologic");
