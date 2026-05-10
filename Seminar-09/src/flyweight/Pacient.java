@@ -7,7 +7,7 @@ public class Pacient {
     private final String nrTelefon;
     private final String adresa;
 
-    public Pacient(String adresa, String nrTelefon, String nume) {
+    public Pacient(String nume, String nrTelefon, String adresa) {
         this.adresa = adresa;
         this.nrTelefon = nrTelefon;
         this.nume = nume;
