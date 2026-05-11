@@ -2,7 +2,7 @@ package adapter_struct;
 
 public class AdapterTransport implements ValidareMetrou {
 
-    private ValidareTransportTerestru sistemTransportTerestru;
+    private final ValidareTransportTerestru sistemTransportTerestru;
 
     public AdapterTransport(ValidareTransportTerestru sistemTransportTerestru) {
         this.sistemTransportTerestru = sistemTransportTerestru;
