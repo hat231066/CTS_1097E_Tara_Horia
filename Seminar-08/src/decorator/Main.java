@@ -1,6 +1,5 @@
 package decorator;
 
-
 //
 //A.7. Spitalul dorește să testeze punerea la dispoziție a rezultatelor prin intermediul platformei
 //online ci nu doar printat. Există însă riscul să se revină la forma inițială de punere la dispoziția

@@ -2,7 +2,6 @@ package adapter;
 
 import java.util.List;
 
-//
 //A.5. Spitalul deține un mic magazin pentru medicamente și au o aplicație pentru cumpărarea d
 //medicamente pe baza de rețetă. Spitalul închei un contrat cu o farmacie specializată și dorește să
 //integreze sistemul informatic al farmaciei cu sistemul software existent în micul magazin de
